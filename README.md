@@ -1,16 +1,32 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎯 React Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک پروژه **شمارنده ساده با React و Vite**.  
+ 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 دمو آنلاین
 
-## Expanding the ESLint configuration
+<a href="https://shahrzad-ranjbar.github.io/react-counter/" target="_blank">
+  <button style="padding: 10px 20px; font-size: 16px; background-color: #4f46e5; color: white; border: none; border-radius: 8px; cursor: pointer;">
+    👀 دمو را ببین
+  </button>
+</a>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-counter
->>>>>>> 8d814496cf4127f9d596cc3b4d07d1d7cf1a2759
+---
+
+## 🛠️ تکنولوژی‌ها
+
+- React  
+- Vite  
+
+
+---
+
+## 💻 اجرای پروژه
+
+```bash
+git clone https://github.com/shahrzad-Ranjbar/react-counter.git
+cd react-counter
+npm install
+npm run dev
