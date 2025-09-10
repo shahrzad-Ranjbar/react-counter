@@ -1,0 +1,53 @@
+/* کل صفحه با پس‌زمینه تیره زرشکی */
+body {
+  background-color: #1a0e13;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* کانتینر اصلی */
+.counter-container {
+  background: linear-gradient(145deg, #3b0a24, #5e0f2e);
+  border: 2px solid #a4254f;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  color: #ffeaea;
+  transition: transform 0.3s ease;
+}
+
+.counter-container:hover {
+  transform: scale(1.02);
+}
+
+/* متن عنوان */
+.counter-title {
+  font-size: 2rem;
+  color: #fddde6;
+  margin-bottom: 1.5rem;
+}
+
+/* دکمه */
+.counter-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: #7e1f3e;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.counter-button:hover {
+  background-color: #a4254f;
+  transform: scale(1.05);
+}
